@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+}
+
+.main-container{
+    width: 965px;
+    height: 620px;
+    background-color: #888;
+    margin: 30px auto 0 auto;
+    padding: 10px;
+    display: grid;
+    gap: 5px;
+    grid-template-areas: /* ########### Pirma dalis */
+                        "grid-item1 grid-item2 grid-item2 grid-item2 grid-item2 grid-item2 grid-item2 grid-item2 grid-item3"
+                        "grid-item4 grid-item2 grid-item2 grid-item2 grid-item2 grid-item2 grid-item2 grid-item2 grid-item5"
+                        "grid-item4 grid-item2 grid-item2 grid-item2 grid-item2 grid-item2 grid-item2 grid-item2 grid-item5" 
+                        /* ########### Antra dalis */
+                        "grid-item6 grid-item7 grid-item8 grid-item9 grid-item10 grid-item11 grid-item12 grid-item13 grid-item14"
+                        "grid-item6 grid-item7 grid-item8 grid-item9 grid-item10 grid-item11 grid-item12 grid-item13 grid-item14" 
+                        /* ########### Trecia dalis */
+                        "grid-item15 grid-item16 grid-item17 grid-item18 grid-item18 grid-item18  grid-item19  grid-item20  grid-item21"
+                        "grid-item15 grid-item16 grid-item17 grid-item18 grid-item18 grid-item18  grid-item19  grid-item20  grid-item21"
+                        "grid-item22 grid-item23 grid-item24 grid-item18 grid-item18 grid-item18  grid-item25  grid-item26  grid-item27"
+                        "grid-item22 grid-item23 grid-item24 grid-item18 grid-item18 grid-item18  grid-item25  grid-item26  grid-item27"
+                        "grid-item28 grid-item29 grid-item30 grid-item18 grid-item18 grid-item18 grid-item31 grid-item32 grid-item33"
+                        "grid-item28 grid-item29 grid-item30 grid-item18 grid-item18 grid-item18 grid-item31 grid-item32 grid-item33" 
+                        /* ########### Ketvirta dalis */
+                        "grid-item34 grid-item35 grid-item36 grid-item37 grid-item38 grid-item39 grid-item40 grid-item41 grid-item42"
+                        "grid-item34 grid-item35 grid-item36 grid-item37 grid-item38 grid-item39 grid-item40 grid-item41 grid-item42"
+                        /* ########### Penkta dalis */
+                        "grid-item43 grid-item44 grid-item44 grid-item44 grid-item44 grid-item44 grid-item44 grid-item44 grid-item45"
+                        "grid-item43 grid-item44 grid-item44 grid-item44 grid-item44 grid-item44 grid-item44 grid-item44 grid-item45"
+                        "grid-item46 grid-item47 grid-item48 grid-item49 grid-item50 grid-item51 grid-item52 grid-item53 grid-item54"
+                        "grid-item46 grid-item47 grid-item48 grid-item49 grid-item50 grid-item51 grid-item52 grid-item53 grid-item54"; 
+}
+
+.grid-item{
+    background-color: rgb(0,255,255);
+}
+
+/* ########### Pirma dalis */
+.grid-item-1{
+    grid-area: grid-item1;
+}
+
+.grid-item-2{
+    grid-area: grid-item2;
+}
+
+.grid-item-3{
+    grid-area: grid-item3;
+}
+
+.grid-item-4{
+    grid-area: grid-item4;
+}
+
+.grid-item-5{
+    grid-area: grid-item5;
+}
+/* ########### Antra dalis */
+
+.grid-item-6{
+    grid-area: grid-item6;
+}
+
+.grid-item-7{
+    grid-area: grid-item7;
+}
+
+.grid-item-8{
+    grid-area: grid-item8;
+}
+
+.grid-item-9{
+    grid-area: grid-item9;
+}
+
+.grid-item-10{
+    grid-area: grid-item10;
+}
+
+.grid-item-11{
+    grid-area: grid-item11;
+}
+
+.grid-item-12{
+    grid-area: grid-item12;
+}
+
+.grid-item-13{
+    grid-area: grid-item13;
+}
+
+.grid-item-14{
+    grid-area: grid-item14;
+} 
+
+/* ########### Trecia dalis */
+
+.grid-item-15{
+    grid-area: grid-item15;
+}
+
+.grid-item-16{
+    grid-area: grid-item16;
+}
+
+.grid-item-17{
+    grid-area: grid-item17;
+}
+
+.grid-item-18{
+    grid-area: grid-item18;
+}
+
+.grid-item-19{
+    grid-area: grid-item19;
+}
+
+.grid-item-20{
+    grid-area: grid-item20;
+}
+
+.grid-item-21{
+    grid-area: grid-item21;
+}
+
+.grid-item-22{
+    grid-area: grid-item22;
+}
+
+.grid-item-23{
+    grid-area: grid-item23;
+}
+
+.grid-item-24{
+    grid-area: grid-item24;
+}
+
+.grid-item-25{
+    grid-area: grid-item25;
+}
+
+.grid-item-26{
+    grid-area: grid-item26;
+}
+
+.grid-item-27{
+    grid-area: grid-item27;
+}
+
+.grid-item-28{
+    grid-area: grid-item28;
+}
+
+.grid-item-29{
+    grid-area: grid-item29;
+}
+
+.grid-item-30{
+    grid-area: grid-item30;
+}
+
+.grid-item-31{
+    grid-area: grid-item31;
+}
+
+.grid-item-32{
+    grid-area: grid-item32;
+}
+
+.grid-item-33{
+    grid-area: grid-item33;
+} 
+
+/* ########### Ketvirta dalis */
+
+.grid-item-34{
+    grid-area: grid-item34;
+}
+
+.grid-item-35{
+    grid-area: grid-item35;
+}
+
+.grid-item-36{
+    grid-area: grid-item36;
+}
+
+.grid-item-37{
+    grid-area: grid-item37;
+}
+
+.grid-item-38{
+    grid-area: grid-item38;
+}
+
+.grid-item-39{
+    grid-area: grid-item39;
+}
+
+.grid-item-40{
+    grid-area: grid-item40;
+}
+
+.grid-item-41{
+    grid-area: grid-item41;
+}
+
+.grid-item-42{
+    grid-area: grid-item42;
+}
+/* ########### Penkta dalis */
+
+.grid-item-43{
+    grid-area: grid-item43;
+}
+
+.grid-item-44{
+    grid-area: grid-item44;
+}
+
+.grid-item-45{
+    grid-area: grid-item45;
+}
+
+.grid-item-46{
+    grid-area: grid-item46;
+}
+
+.grid-item-47{
+    grid-area: grid-item47;
+}
+
+.grid-item-48{
+    grid-area: grid-item48;
+}
+
+.grid-item-49{
+    grid-area: grid-item49;
+}
+
+.grid-item-50{
+    grid-area: grid-item50;
+}
+
+.grid-item-51{
+    grid-area: grid-item51;
+}
+
+.grid-item-52{
+    grid-area: grid-item52;
+}
+
+.grid-item-53{
+    grid-area: grid-item53;
+}
+
+.grid-item-54{
+    grid-area: grid-item54;
+} 
